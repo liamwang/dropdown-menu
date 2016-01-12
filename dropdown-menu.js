@@ -1,4 +1,14 @@
-﻿(function ($) {
+/*
+ * dropdown-menu.js
+ *
+ * Copyright 2016, Liam - http://exblr.com/liam
+ * Released under the MIT Licence
+ * http://opensource.org/licenses/MIT
+ *
+ * Github : http://github.com/liamwang/dropdown-menu/
+ * Version: 1.0
+ */
+(function ($) {
 
     function DropdownMenu($container, options) {
         this.options = $.extend($.fn.dropdownMenu.defaults, options || {});
